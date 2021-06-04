@@ -1,0 +1,55 @@
+body {
+    padding-top: 800px;
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border: 5px solid blue;
+    padding: 5px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    background-image: linear-gradient(pink, lavender, yellow);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    text-shadow: 2px 2px #F88BD0;
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.image {
+    width: 300px;
+    ;
+}
+
+.picture {
+    width: 300px;
+}
